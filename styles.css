@@ -1,0 +1,88 @@
+body {
+	margin-top: 60px;
+	background-color: #8ecae6;
+	font-family: "Montserrat", sans-serif;
+}
+
+.dice-wrapper {
+	background-color: #023047;
+	border-radius: 5px;
+	max-width: 400px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	-webkit-box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+	box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+}
+
+.dice {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #8ecae6;
+	border-radius: 5px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fb8500;
+	-webkit-box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+	box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+}
+
+.roll {
+	width: 120px;
+	height: 60px;
+	margin-top: 40px;
+	background-color: aquamarine;
+	border-radius: 3px;
+	border: none;
+	font-size: 1.2em;
+	-webkit-box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+	box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.45);
+}
+
+.food-form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.option {
+	font-size: 1.5em;
+	margin: 4px;
+	width: 70%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	border: none;
+	background-color: #023047;
+	color: white;
+	text-align: center;
+}
+
+.choice {
+	font-size: 1.2em;
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(8deg);
+	}
+	50% {
+		transform: rotate(-8deg);
+	}
+	100% {
+		transform: rotate(8deg);
+	}
+}
+
+.shake {
+	animation: shake 0.5s infinite;
+}
